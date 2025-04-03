@@ -1,2 +1,0 @@
-libdp2l_la-dpmem.lo: dpmem.c /usr/include/stdc-predef.h
-/usr/include/stdc-predef.h:
