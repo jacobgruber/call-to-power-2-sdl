@@ -916,10 +916,6 @@ void GreatLibrary::Initialize(MBCHAR const * windowBlock)
 	m_goodsButton = (ctp2_Button *)aui_Ldl::GetObject(windowBlock, buttonBlock);
 	m_goodsButton->SetActionFuncAndCookie( greatlibrary_IndexButtonCallback, NULL );
 
-	sprintf(buttonBlock, "%s.%s", controlBlock, "WindowedButton");
-	m_windowedButton = (ctp2_Button*)aui_Ldl::GetObject(windowBlock, buttonBlock);
-	m_windowedButton->SetActionFuncAndCookie(greatlibrary_IndexButtonCallback, NULL);
-
 	sprintf( buttonBlock, "%s.%s", controlBlock, "OrdersButton" );
 	m_ordersButton = (ctp2_Button *)aui_Ldl::GetObject(windowBlock, buttonBlock);
 	m_ordersButton->SetActionFuncAndCookie( greatlibrary_IndexButtonCallback, NULL );
